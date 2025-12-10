@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : ByteCorum
+ * Github : @bytecorum
+ *
+ * Colors
+ **/
+
+{
+    background:     #1a1b26AA;
+    background-alt: #272A38AA;
+    foreground:     #ACACB1FF;
+    selected:       #27A1B9EE;
+    active:         #41424BEE;
+    urgent:         #C05F74EE;
+}
