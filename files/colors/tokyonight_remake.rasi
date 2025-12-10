@@ -6,7 +6,7 @@
  * Colors
  **/
 
-{
+* {
     background:     #1A1B26FF;
     background-alt: #272A38FF;
     foreground:     #ACACB1FF;
