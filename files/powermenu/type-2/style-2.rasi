@@ -2,7 +2,7 @@
  *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
+ *
  * Rofi Theme File
  * Rofi Version: 1.7.3
  **/
@@ -36,7 +36,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               20px;
+    border-radius:               16px;//20
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -48,8 +48,8 @@ mainbox {
     spacing:                     15px;
     margin:                      0px;
     padding:                     30px;
-    border:                      0px solid;
-    border-radius:               0px;
+    border:                      2px solid;
+    border-radius:               14px;
     border-color:                @selected;
     background-color:            transparent;
     children:                    [ "inputbar", "listview" ];
@@ -131,7 +131,7 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-    
+
     spacing:                     15px;
     margin:                      0px;
     padding:                     0px;
@@ -157,7 +157,7 @@ element {
     cursor:                      pointer;
 }
 element-text {
-    font:                        "feather bold 32";
+    font:                        "Fira Code Nerd Font Propo 32";
     background-color:            transparent;
     text-color:                  inherit;
     cursor:                      inherit;
