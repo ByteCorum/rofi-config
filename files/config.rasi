@@ -2,7 +2,7 @@
  *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
+ *
  * Configuration For Rofi Version: 1.7.3
  **/
 
@@ -105,6 +105,39 @@ configuration {
 
 	/*---------- Keybindings ----------*/
 /*
+	/* --- Navigation (Speed) --- */
+    /* Move Down (Next Item) */
+    kb-row-down: "Down,Control+n";
+    /* Move Up (Previous Item) */
+    kb-row-up: "Up,Control+p";
+    /* Switch Modes (Apps -> Run -> Windows) */
+    kb-mode-next: "Shift+Right,Control+Tab";
+    /* Scroll Pages */
+    kb-page-prev: "Page_Up";
+    kb-page-next: "Page_Down";
+
+    /* --- Editing (Search Bar) --- */
+    /* Delete previous word */
+    kb-remove-word-back: "Control+w,Control+BackSpace";
+    /* Clear entire line */
+    kb-remove-to-sol: "Control+u";
+    /* Delete to end of line */
+    kb-remove-to-eol: "Control+k";
+    /* Jump to start of line */
+    kb-move-front: "Control+a";
+    /* Jump to end of line */
+    kb-move-end: "Control+e";
+
+    /* --- Actions --- */
+    /* Open in Terminal (Shift+Enter) */
+    kb-accept-alt: "Shift+Return";
+    /* Delete history entry (Shift+Delete) */
+    kb-delete-entry: "Shift+Delete";
+    /* Multi-select items */
+    kb-row-select: "Control+space";
+
+
+
 	kb-primary-paste: "Control+V,Shift+Insert";
 	kb-secondary-paste: "Control+v,Insert";
 	kb-clear-line: "Control+w";
